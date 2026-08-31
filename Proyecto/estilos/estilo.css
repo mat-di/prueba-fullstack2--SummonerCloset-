@@ -1,0 +1,11 @@
+header{
+    background-color: dimgrey;
+
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 12px 0;
+    text-align: center;
+}
