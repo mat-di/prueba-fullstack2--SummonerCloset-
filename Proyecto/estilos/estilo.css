@@ -45,4 +45,9 @@ h1{
     font-size: 100px;
 }
 
+.buscador{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 
