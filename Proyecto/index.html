@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SummonerCloset</title>
     <link rel="stylesheet" href="/Proyecto/estilos/estilo.css">
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
 </head>
 <body>
     <header>
@@ -17,11 +16,17 @@
     <main>
         <section class="buscador">
             <h2>Buscador</h2>
-            <input
-                class="input is-primary"
-                type="text"
-                placeholder="Buscar un campeón"
-            />
+            <div class="buscador-form">
+                <input
+                    class="input is-primary"
+                    type="text"
+                    placeholder="Buscar un campeón"
+                />
+                <button class="button is-success" type="submit">
+                    <i class="fas fa-search">🔎</i>
+                </button>
+            </div>
+            
         </section>
     </main>
     <footer>

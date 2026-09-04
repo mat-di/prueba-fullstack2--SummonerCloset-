@@ -12,6 +12,22 @@
     font-style: normal;
 }
 
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 45px; 
+    }
+
+    .buscador h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .buscador-form .input {
+        font-size: 14px;
+        height: 40px;
+    }
+}
+
 header{
     background-color: #1e293b;
     color: white;
@@ -49,14 +65,16 @@ h1{
     color: #1e293b;
     text-align: center;
     max-width: 800px;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 10px;
 }
 
 .buscador h2{
     font-size: 35px;
     color: #2f5896;
-    -webkit-text-stroke: 1  px rgb(250, 253, 86);
+    -webkit-text-stroke: 1px rgb(250, 253, 86);
     text-align: left;
 }
 
@@ -64,5 +82,21 @@ h1{
     margin: 0 auto;
 }
 
+.buscador-form {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+}
 
+.buscador-form .input {
+    padding-right: 50px;
+    width: 100%;
+}
 
+.buscador-form .button {
+    position: absolute;
+    right: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+}
