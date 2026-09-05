@@ -12,17 +12,17 @@
     font-style: normal;
 }
 
-@media screen and (max-width: 768px) {
-    h1 {
+@media screen and (max-width: 768px){
+    h1{
         font-size: 45px; 
     }
 
-    .buscador h2 {
+    .buscador h2{
         font-size: 24px;
         text-align: center;
     }
 
-    .buscador-form .input {
+    main .buscador-form .input{
         font-size: 14px;
         height: 40px;
     }
@@ -31,7 +31,7 @@
 header{
     background-color: #1e293b;
     color: white;
-    padding: 1rem;
+    padding: 16px;
 }
 
 main{
@@ -40,63 +40,65 @@ main{
 
 body{
     background-image: url(/Proyecto/imagenes/background_lol.jpg);
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 footer{
-    background-color: #0f172a;
+    background-color: #09101f;
     color: white;
-    padding: 1rem;
+    padding: 16px;
     text-align: center;
 }
 
-h1{
+header h1{
     font-family: 'BeaufortLoL', 'Cinzel', serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 100px;
+    font-size: 25px;
 }
 
-.buscador{
+main .buscador{
     color: #1e293b;
-    text-align: center;
+    text-align: right;
     max-width: 800px;
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 10px;
+    margin: 0 auto;
+    padding: 15px 10px;
 }
 
-.buscador h2{
-    font-size: 35px;
-    color: #2f5896;
-    -webkit-text-stroke: 1px rgb(250, 253, 86);
+main .buscador h2{
+    font-size: 30px;
+    color: #d4d4d4;
+    -webkit-text-stroke: 1px rgb(75, 106, 241);
     text-align: left;
 }
 
-.buscador input{
-    margin: 0 auto;
-}
-
-.buscador-form {
+main .buscador-form {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
     width: 100%;
 }
 
-.buscador-form .input {
-    padding-right: 50px;
+main .buscador-form .input {
+    padding-right: 30px;
     width: 100%;
 }
 
-.buscador-form .button {
+main .buscador-form .button {
     position: absolute;
     right: 1px;
     top: 50%;
     transform: translateY(-50%);
+}
+
+main .buscador .roles button{
+    max-width: 55px;
+
+}
+
+main .buscador .roles{
+    padding: 5px 80px;
 }
