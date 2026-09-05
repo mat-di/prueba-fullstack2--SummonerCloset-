@@ -75,6 +75,11 @@ main .buscador h2{
     text-align: left;
 }
 
+main .buscador .buscador-superior{
+    display: flex;
+    justify-content: space-between;
+}
+
 main .buscador-form {
     position: relative;
     max-width: 800px;
@@ -96,7 +101,6 @@ main .buscador-form .button {
 
 main .buscador .roles button{
     max-width: 55px;
-
 }
 
 main .buscador .roles{
