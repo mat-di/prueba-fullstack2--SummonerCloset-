@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SummonerCloset</title>
     <link rel="stylesheet" href="/Proyecto/estilos/estilo.css">
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
 </head>
 <body>
     <header>
@@ -15,9 +14,42 @@
         </h1>
     </header>
     <main>
-
-        
-
+        <section class="buscador">
+            <div class="buscador-superior">
+                <h2>Buscador</h2>
+                <div class="roles">
+                    <button class="button is-black" type="submit">
+                        <img src="/Proyecto/imagenes/Top_icon.png" alt="Icono Top">
+                    </button>
+                    <button class="button is-black" type="submit">
+                        <img src="/Proyecto/imagenes/Jungle_icon.png" alt="Icono Jungle">
+                    </button>
+                    <button class="button is-black" type="submit">
+                        <img src="/Proyecto/imagenes/Middle_icon.png" alt="Icono Middle">
+                    </button>
+                    <button class="button is-black" type="submit">
+                        <img src="/Proyecto/imagenes/Bottom_icon.png" alt="Icono Bottom">
+                    </button>
+                    <button class="button is-black" type="submit">
+                        <img src="/Proyecto/imagenes/Support_icon.png" alt="Icono Support">
+                    </button>
+                    <button class="button is-white" type="reset">
+                        <img src="/Proyecto/imagenes/remover_filtro.png" alt="Icono limpiar filtro">
+                    </button>
+                </div>
+            </div>
+            <div class="buscador-form">
+                <input
+                    class="input is-primary"
+                    type="text"
+                    maxlength="30"
+                    placeholder="Buscar un campeón"
+                />
+                <button class="button is-success" type="submit">
+                    <i class="fas fa-search">🔎</i>
+                </button>
+            </div>
+        </section>
     </main>
     <footer>
         Todos los derechos reservados a tilinazo67
