@@ -60,12 +60,14 @@ header h1{
 }
 
 main .buscador{
-    color: #1e293b;
     text-align: right;
     max-width: 800px;
     width: 90%;
     margin: 0 auto;
-    padding: 15px 10px;
+    padding: 10px 10px;
+    background-color: #09101f;
+    border-radius: 10px;
+    margin-top: 15px;
 }
 
 main .buscador h2{
@@ -78,6 +80,28 @@ main .buscador h2{
 main .buscador .buscador-superior{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+main .buscador .roles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+    padding: 5px 5px;
+}
+
+main .buscador .roles button{
+    max-width: 55px;
+}
+
+main .buscador .roles .is-white{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    align-self: center;
+    border: 2px solid #C79B3B;
+    margin-left: 10px;
 }
 
 main .buscador-form {
@@ -97,12 +121,4 @@ main .buscador-form .button {
     right: 1px;
     top: 50%;
     transform: translateY(-50%);
-}
-
-main .buscador .roles button{
-    max-width: 55px;
-}
-
-main .buscador .roles{
-    padding: 5px 80px;
 }
