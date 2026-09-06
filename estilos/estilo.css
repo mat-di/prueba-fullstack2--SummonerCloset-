@@ -30,8 +30,7 @@
 
 header{
     background-color: #1e293b;
-    color: white;
-    padding: 16px;
+    padding: 10px;
 }
 
 main{
@@ -54,9 +53,9 @@ footer{
 
 header h1{
     font-family: 'BeaufortLoL', 'Cinzel', serif;
-    text-transform: uppercase;
+    color: #fcb674;
     letter-spacing: 1px;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 main .buscador{
@@ -72,8 +71,8 @@ main .buscador{
 
 main .buscador h2{
     font-size: 30px;
-    color: #d4d4d4;
-    -webkit-text-stroke: 1px rgb(75, 106, 241);
+    font-family: 'Spiegel', 'Cinzel', serif;
+    color: #fcb674;
     text-align: left;
 }
 
