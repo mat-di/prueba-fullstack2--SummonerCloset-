@@ -17,6 +17,13 @@ header{
     padding: 10px;
 }
 
+header h1{
+    font-family: 'BeaufortLoL', 'Cinzel', serif;
+    color: #fcb674;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
 main{
     flex: 1;
 }
@@ -33,13 +40,6 @@ footer{
     color: white;
     padding: 16px;
     text-align: center;
-}
-
-header h1{
-    font-family: 'BeaufortLoL', 'Cinzel', serif;
-    color: #fcb674;
-    letter-spacing: 1px;
-    font-size: 40px;
 }
 
 main .buscador{
@@ -71,11 +71,11 @@ main .buscador .roles{
     align-items: center;
     gap: 3px;
     padding: 5px 5px;
+    flex-wrap: wrap;
 }
 
 main .buscador .roles button{
     max-width: 55px;
-    width: 100%;
 }
 
 main .buscador .roles .is-white{
@@ -104,14 +104,7 @@ main .buscador-form .button {
     right: 1px;
     top: 50%;
     transform: translateY(-50%);
-    width: 90%;
-}
-
-main .buscador-form .button i{
-    color: #fcb674;
-    font-size: 20px;
-    width: 90%;
-}
+}   
 
 .campeones{
     max-width: 1200px;
@@ -153,7 +146,7 @@ main .buscador-form .button i{
 }
 
 @media screen and (max-width: 768px){
-    h1{
+    header h1{
         font-size: 45px; 
     }
 
