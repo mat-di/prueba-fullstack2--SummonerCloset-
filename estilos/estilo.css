@@ -75,6 +75,7 @@ main .buscador .roles{
 
 main .buscador .roles button{
     max-width: 55px;
+    width: 100%;
 }
 
 main .buscador .roles .is-white{
@@ -103,6 +104,13 @@ main .buscador-form .button {
     right: 1px;
     top: 50%;
     transform: translateY(-50%);
+    width: 90%;
+}
+
+main .buscador-form .button i{
+    color: #fcb674;
+    font-size: 20px;
+    width: 90%;
 }
 
 .campeones{
