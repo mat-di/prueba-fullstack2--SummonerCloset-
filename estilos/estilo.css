@@ -22,7 +22,7 @@ main{
 }
 
 body{
-    background-image: url('../imagenes/background_lol.jpg');
+    background-image: url('../imagenes/background_lol.webp');
     display: flex;
     flex-direction: column;
     min-height: 100vh;
