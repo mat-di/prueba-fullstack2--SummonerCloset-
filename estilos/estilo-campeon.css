@@ -1,0 +1,61 @@
+@font-face{
+    font-family: 'BeaufortLoL';
+    src: url('https://content.rgpub.io/live/zenith/fonts/BeaufortforLoL-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Spiegel';
+    src: url('https://content.rgpub.io/live/zenith/fonts/Spiegel-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    background-color: #1e293b;
+    padding: 10px;
+}
+
+main{
+    flex: 1;
+}
+
+body{
+    background-image: url('../imagenes/background2.jpg');
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    background-color: #09101f;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+header h1{
+    font-family: 'BeaufortLoL', 'Cinzel', serif;
+    color: #fcb674;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+
+
+@media screen and (max-width: 768px){
+    h1{
+        font-size: 45px; 
+    }
+
+    .buscador h2{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    main .buscador-form .input{
+        font-size: 14px;
+        height: 40px;
+    }
+}
