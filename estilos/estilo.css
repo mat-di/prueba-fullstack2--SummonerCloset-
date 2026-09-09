@@ -126,6 +126,7 @@ main .buscador-form .button {
 .campeon-tarjeta{
     width: 200px;
     height: auto;
+    cursor: pointer;
     background-color: #09101f;
     border-radius: 10px;
 }
