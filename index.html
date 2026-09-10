@@ -37,7 +37,7 @@
                     <button class="button is-black" type="submit">
                         <img src="imagenes/Support_icon.webp" alt="Icono Support">
                     </button>
-                    <button class="button is-white" type="reset">
+                    <button class="boton-filtro" id="limpiar-filtros" type="reset" onclick="limpiarFiltros()">
                         <img src="imagenes/remover_filtro.webp" alt="Icono limpiar filtro">
                     </button>
                 </div>
@@ -48,6 +48,7 @@
                     type="text"
                     maxlength="30"
                     placeholder="Buscar un campeón"
+                    id="buscador-input"
                 />
                 <button class="button is-success" type="submit">
                     <i class="fas fa-search">🔎</i>
