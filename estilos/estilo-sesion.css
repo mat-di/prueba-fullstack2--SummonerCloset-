@@ -23,6 +23,12 @@ main{
     flex: 1;
 }
 
+.box{
+    max-width: 400px;
+    margin: 10rem auto;
+    padding: 2rem;
+}
+
 header {
   display: flex;
   justify-content: space-between;
