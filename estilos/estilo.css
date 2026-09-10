@@ -122,13 +122,14 @@ main .buscador .roles button{
     max-width: 55px;
 }
 
-main .buscador .roles .is-white{
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    align-self: center;
+main .buscador .roles .boton-filtro{
+    width: 10px;
+    height: auto;
+    width: 30%;
+    max-width: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
     border: 2px solid #C79B3B;
-    margin-left: 10px;
 }
 
 main .buscador-form {
