@@ -20,18 +20,34 @@
     <main>
         <form class="box">
             <div class="field">
+                <label class="label">Usuario</label>
+                <div class="control">
+                <input class="input" type="text" id="user" placeholder="Ingrese su usuario" />
+                </div>
+            </div>
+
+            <div class="field">
                 <label class="label">Email</label>
                 <div class="control">
-                <input class="input" type="email" placeholder="correo electrónico" />
+                <input class="input" type="email" id="email" placeholder="Ingrese su correo electrónico" />
                 </div>
             </div>
+
             <div class="field">
-                <label class="label">Password</label>
+                <label class="label">Confirmar Email</label>
                 <div class="control">
-                <input class="input" type="password" placeholder="********" />
+                <input class="input" type="email" id="confirmEmail" placeholder="Confirme su correo electrónico" onkeydown="validarCorreo(event)"/>
                 </div>
             </div>
-            <button class="button is-primary">Sign in</button>
+
+            <div class="field">
+                <label class="label">Contraseña</label>
+                <div class="control">
+                <input class="input" type="password" id="password" placeholder="*****************" />
+                </div>
+            </div>
+
+            <button class="button is-primary">Crear cuenta</button>
         </form>
     </main>
     <footer id="footer">
