@@ -26,11 +26,13 @@ header h1 {
   letter-spacing: 1px;
   font-size: 32px;
   margin: 0;
+  padding-right: 10px;
 }
 
 header nav {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 header a {
@@ -114,6 +116,7 @@ main .buscador .roles{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     gap: 3px;
     padding: 5px 5px;
 }
@@ -189,20 +192,4 @@ main .buscador-form .button {
     color: #ffcb9a;
     font-family: 'Spiegel', 'Cinzel', serif;
     font-size: 20px;
-}
-
-@media screen and (max-width: 768px){
-    h1{
-        font-size: 45px; 
-    }
-
-    .buscador h2{
-        font-size: 24px;
-        text-align: center;
-    }
-
-    main .buscador-form .input{
-        font-size: 14px;
-        height: 40px;
-    }
 }
