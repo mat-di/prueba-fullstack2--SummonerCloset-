@@ -164,6 +164,13 @@ main .buscador-form .button {
     margin-top: 15px;
 }
 
+.campeones h2{
+    font-size: 30px;
+    font-family: 'Spiegel', 'Cinzel', serif;
+    color: #fcb674;
+    text-align: left;
+}
+
 .campeones-tarjetas{
     display: flex;
     flex-wrap: wrap;
