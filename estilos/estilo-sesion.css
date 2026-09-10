@@ -14,6 +14,7 @@
 
 body{
     background-image: url('../imagenes/background3.webp');
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -93,7 +94,7 @@ footer{
     justify-content: center;
     align-items: center;
 }
- 
+
 footer a{
     color: #fcb674;
     text-decoration: none;
